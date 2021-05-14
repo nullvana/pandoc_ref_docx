@@ -63,6 +63,10 @@
 
 나눔고딕폰트로 변경한 레퍼런스 파일은 ```https://github.com/nullvana/pandoc_ref_docx/raw/master/reference.docx```에서 다운받을 수 있습니다.
 
+```sh
+git clone https://github.com/nullvana/pandoc_ref_docx.git ~/.pandoc
+```
+
 ```json
     // vscode settings.json
     "pandoc.pdfOptString": "-V mainfont='KoPubWorldDotum_Pro' -V sansfont='KoPubWorldBatang_Pro' -V monofont='D2Coding' -V papersize=a4 -V fontsize=11pt -F mermaid-filter --pdf-engine=xelatex --toc",
