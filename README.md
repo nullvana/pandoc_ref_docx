@@ -65,6 +65,19 @@
 
 ```sh
 git clone https://github.com/nullvana/pandoc_ref_docx.git ~/.pandoc
+
+# macos 기준으로
+
+# pandoc 설치
+https://pandoc.org/installing.html#macos
+
+# mactex 설치
+http://www.tug.org/mactex/morepackages.html # 저용량을 설치 
+
+# 유틸리티 설치
+https://github.com/pandocker/pandoc-docx-pagebreak-py
+https://github.com/raghur/mermaid-filter
+
 ```
 
 ```json
